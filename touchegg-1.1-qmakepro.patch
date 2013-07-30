@@ -1,0 +1,11 @@
+--- touchegg-1.1/touchegg.pro.orig	2012-08-24 19:05:14.702402775 +0200
++++ touchegg-1.1/touchegg.pro	2012-08-24 19:05:25.693403016 +0200
+@@ -1,7 +1,7 @@
+ TEMPLATE     = app
+ TARGET       = touchegg
+ QT          += gui core xml
+-LIBS        += -lutouch-geis -lX11 -lXtst -lXext
++LIBS        += -lgeis -lX11 -lXtst -lXext
+ //DEFINES      = QT_NO_DEBUG_OUTPUT
+ 
+ target.path  = /usr/bin
