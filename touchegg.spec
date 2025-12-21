@@ -7,6 +7,7 @@ Summary:	Multi-touch gestures recognizer
 Url:		https://code.google.com/p/touchegg
 Source0:	http://touchegg.googlecode.com/files/%{name}-%{version}.tar.gz
 Patch0:		%{name}-1.1-qmakepro.patch
+BuildRequires:	make
 BuildRequires:	pkgconfig(libgeis)
 BuildRequires:	pkgconfig(QtCore)
 BuildRequires:	pkgconfig(xtst)
